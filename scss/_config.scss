@@ -1,0 +1,62 @@
+$primary-color: #e50914;
+$dark-color: #141414;
+
+// text styles
+.text-md {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+}
+.text-xl {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.text-lg {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-dark {
+  color: #999;
+}
+
+// Btn Styles
+.btn {
+  display: inline-block;
+  background: $primary-color;
+  color: white;
+  padding: 0.4rem 1.3rem;
+  font-size: 1rem;
+  text-align: center;
+  cursor: pointer;
+  border: none;
+  margin-right: 0.5rem;
+  outline: none;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.45);
+  border-radius: 3px;
+}
+.btn-lg {
+  font-size: 1rem;
+  padding: 0.8rem 1.3rem;
+
+  text-transform: uppercase;
+}
+.btn-xl {
+  font-size: 1.3rem;
+  padding: 1.4rem 2rem;
+  text-transform: uppercase;
+  border-radius: 5px;
+  text-align: center;
+}
+
+// General Container
+.container {
+  max-width: 70%;
+  margin: auto;
+  overflow: hidden;
+  padding: 0 2rem;
+}
